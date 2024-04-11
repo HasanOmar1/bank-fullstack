@@ -49,9 +49,9 @@ I have used Material UI for the sign-up and sign-in pages.
 
 ## Preview
 
-![Alt text](./src/assets/home.png)
-![Alt text](./src/assets/client-page.png)
-![Alt text](./src/assets/create-acc.png)
+![Alt text](client/src/assets/home.png)
+![Alt text](client/src/assets/client-page.png)
+![Alt text](client/src/assets/create-acc.png)
 
 # Bank-API-Backend
 
