@@ -1,0 +1,152 @@
+.Home{
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.Home .welcome-msg{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.Home .accounts-info {
+    
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.Home .accounts-info .list-title{
+    color: #FF9800;
+    padding-bottom: 30px;
+}
+
+.Home .new-client-container{
+    padding-bottom: 20px;
+}
+
+.Home .add-client{
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid #00ADB5;
+    color: #00ADB5;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all 0.5s;
+    margin-left: 77%;
+}
+
+.Home .add-client:hover{
+    color: black;
+    background-color: #00ADB5;
+}
+
+.Home .users-container{
+    padding-bottom: 40px;
+    height: fit-content;
+}
+
+.Home .sort-btns{
+    display: flex;
+    gap: 20px;
+
+}
+
+
+.Home .sort-btns button{
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid #00ADB5;
+    color: #00ADB5;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 10px;
+    transition: all 0.5s;
+}
+
+.Home .sort-btns button:hover{
+    color: black;
+    background-color: #00ADB5;
+}
+
+.Home .current-user-name{
+    color: gold;
+}
+
+.Home .sign-out{
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    position: absolute;
+    top: 50px;
+    right: 15%;
+}
+
+.Home .sign-out:hover{
+
+    color: black;
+    background-color: goldenrod;
+}
+
+.Home .back-icon{
+    padding-right: 5px;
+}
+@media (max-width: 576px) {
+
+.Home{
+    font-size: 9px;
+    width: 100vw;
+}
+
+.Home .accounts-info{
+    margin-left: 0;
+}
+
+
+.Home .accounts-info .list-title{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.Home .add-client{
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-left: 0;
+}
+
+.Home .users-container{
+    width: 100vw;
+}
+
+.Home .sort-btns{
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.Home .sort-btns button{
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-left: 0;
+}
+
+.Home .new-client-container{
+    margin-left: 20px;
+}
+.Home .sign-out{
+    padding: 5px 10px;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 150px;
+    right: 6%;
+}
+}

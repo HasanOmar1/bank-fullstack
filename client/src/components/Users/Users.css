@@ -1,0 +1,101 @@
+.Users{
+    display: flex;
+    flex-direction: column;    
+}
+
+.Users .data{
+    
+    border: 1px solid #5F8670;
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    width: 85%;    
+}
+
+.Users .data p{
+    color: rgb(231, 238, 130);
+    width: 100%;
+    padding-top: 6px;
+
+}
+
+.Users .line{
+    border: 1px solid brown;
+    height: 30px;
+}
+
+.Users .active{
+    padding-left: 5px;
+}
+
+.Users .green {
+    color: green;
+}
+
+.Users .red {
+    color: red;
+}
+
+.Users .info{
+    color: #fff;
+    padding-left: 5px;
+
+}
+
+
+.Users button{
+    padding: 10px;
+    width: 100px;
+    background-color: #393E46;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #00ADB5;
+}
+
+.Users button:hover{
+    background-color: #00ADB5;
+    color: #393E46;
+}
+
+.Users .delete-user{
+    padding-top: 5px;
+    color: burlywood;
+    cursor: pointer;
+}
+
+.Users .delete-user:hover{
+    color: red;
+}
+
+
+
+@media (max-width: 576px) {
+
+  
+.Users .data{
+    
+    padding: 15px;
+    display: flex;
+    gap: 5px;
+    width: 100vw;    
+}
+
+.Users .data p{
+    color: rgb(231, 238, 130);
+    width: 100%;
+    padding-top: 6px;
+
+}
+
+
+.Users button{
+    padding: 5px 2px;
+    width: 40px;
+    font-size: 10px;
+}
+
+
+   
+}
